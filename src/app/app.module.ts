@@ -6,15 +6,13 @@ import { HomePage } from '../pages/home/home';
 // Import the AF2 Module
 import { AngularFireModule } from 'angularfire2';
 
-// <script src="https://www.gstatic.com/firebasejs/3.6.10/firebase.js"></script>
-
 // AF2 Settings
 export const firebaseConfig = {
-  apiKey: "AIzaSyCHaZ17tKeJ8hx_U0kRhOlrsCMsxPQ5ImE",
-  authDomain: "af2-lists-5fc63.firebaseapp.com",
-  databaseURL: "https://af2-lists-5fc63.firebaseio.com",
-  storageBucket: "af2-lists-5fc63.appspot.com",
-  messagingSenderId: "4354139246"
+  apiKey: "AIzaSyCB4rGwgbMUVEUq0IlT0vvtlaUoBhX-wlk",
+  authDomain: "angularfire2-list-exampl-59280.firebaseapp.com",
+  databaseURL: "https://angularfire2-list-exampl-59280.firebaseio.com",
+  storageBucket: "angularfire2-list-exampl-59280.appspot.com",
+  messagingSenderId: "262992764747"
 };
 
 @NgModule({
